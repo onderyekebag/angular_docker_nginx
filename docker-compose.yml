@@ -1,7 +1,8 @@
 version: "3.8"
-
+name: angular-docker-nginx
 services:
   frontend:
+    container_name: angular-docker-nginx
     build:
       context: .
       dockerfile: Dockerfile
