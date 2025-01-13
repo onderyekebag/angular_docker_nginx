@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  img {
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+  }
+
+  h6 {
+    font-size: 2rem;
+    color: #515151;
+    text-align: center;
+
+    p {
+      display: flex;
+      gap: 1rem;
+
+      span {
+        &:nth-child(1) {
+          color: #2162e5;
+        }
+        &:nth-child(2) {
+          color: #dc0031;
+        }
+        &:nth-child(3) {
+          color: #1bd51b;
+        }
+      }
+
+    }
+
+  }
+
+}
+
