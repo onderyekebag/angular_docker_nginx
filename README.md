@@ -12,8 +12,7 @@
 4. The application is exposed on port 80.
 
 ## To run the project locally:
-1. Build the Docker container with:
-
+ Build the Docker container with:
 
 ### Start docker container
 `docker-compose up --build`
